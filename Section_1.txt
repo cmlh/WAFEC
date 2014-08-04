@@ -1,0 +1,39 @@
+Mirrored from http://lists.webappsec.org/pipermail/wasc-wafec_lists.webappsec.org/2011-March/000055.html
+
+I have the following comments related to Section 1 of WAFEC v1.0 i.e.
+pp4-7 based on a very quick rereading (i.e. I could be wrong)
+
+1.1 - Should diagrams be included illustrating 1.1.1 - 1.1.4?  These
+could be inserted as an Appendix
+
+1.2 - Can we change the heading to "Insufficient Transport Layer
+Protection" as per
+http://projects.webappsec.org/w/page/13246945/Insufficient-Transport-Layer-Protection
+?
+
+1.2 - Should we include a reference to Common Criteria due to the
+inclusion of FIPS 140-2?
+
+1.2 - The reference to the different levels above Level 1 for FIPS
+140-2 should be removed due to their relationship to the HSM i.e.
+create a subsection for HSM.
+
+1.2 - SSL/TLSv3 Hardware Acceleration should include a reference to a
+separate HSM and FIPS 140-2.
+
+1.2 - Should a technical audit procedure (e.g. using OpenSSL) be
+included to verify the SSL/TLSv3 implementation?
+
+1.2 - I suspect Ivan Ristic might wish to add to this due to his work
+with www.ssllabs.org?
+
+1.3 - Can "Traffic Blocking" be extended/clarified to include the
+numerous ways to terminate a TCP connection i.e. drop, RST, FIN, etc?
+
+1.4 - For appliances, can a mention of patching in relation to its EUL
+be included as I have encountered a number which if patched void the
+EUL?
+
+1.4 - Common Criteria, etc is not mentioned but would be a factor in
+purchasing an appliance for Government but is not specified within
+"Method of Delivery", can this be specified?

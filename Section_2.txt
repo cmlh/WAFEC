@@ -1,0 +1,19 @@
+Mirrored from http://lists.webappsec.org/pipermail/wasc-wafec_lists.webappsec.org/2011-March/000051.html
+
+I have the following comments related to Section 2 of WAFEC v1.0 i.e.
+pp7-10 based on a very quick rereading (i.e. I could be wrong)
+
+- What should be considered for HTML 5 based on the existing sub
+heading within Section 2 WAFEC v1.0?
+
+- What heading should be added to Section for HTML 5 to Section 2 for
+WAFEC v2.0?
+
+
+In relation to the specific subsections for Section 2 WAFEC v1.0:
+
+   2.2 - Can the common technical encoding types be specified e.g.
+"Content-Encoding: gzip" as examples to allow for new encoding types
+to be "assumed" based on generic wording, etc after the publication of
+WAFEC v2.0?
+   2.8 - Should this be relabeled as "Data Loss Prevention", i.e. replace "Leak",  within WAFEC v2.0?

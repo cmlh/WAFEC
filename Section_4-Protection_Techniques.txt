@@ -1,0 +1,14 @@
+Mirrored from http://lists.webappsec.org/pipermail/wasc-wafec_lists.webappsec.org/2011-April/000061.html
+
+In relation to WAFEC v1.0 Section 4 - "Protection Techniques" i.e.
+https://files.pbworks.com/download/jMK6E7P3YC/webappsec/13247060/wasc-wafec-v1.0.html?ld=1#N103B9
+
+As per the quote within the introduction paragraph, should this be
+aligned with http://projects.webappsec.org/w/page/13246978/Threat-Classification
+as a view i.e. http://projects.webappsec.org/w/page/13246977/Threat-Classification-Views
+?
+
+Another consideration is since that Robert has announced that
+http://projects.webappsec.org/w/page/13246978/Threat-Classification
+has commenced their next revision what effect will this have on the
+above alignment?
