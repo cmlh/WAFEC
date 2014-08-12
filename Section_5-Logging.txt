@@ -1,0 +1,39 @@
+Mirrored at http://lists.webappsec.org/pipermail/wasc-wafec_lists.webappsec.org/2014-August/000295.html
+
+5.1
+
+- Redefine "Unique Transaction IDs" in v1.0 as the HTTP "X-Request-ID" Header i.e. https://devcenter.heroku.com/articles/http-request-id
+   - Does anyone have a better reference for https://devcenter.heroku.com/articles/http-request-id ?
+- Should this be further defined as https://www.wireshark.org/docs/wsug_html_chunked/ChAdvFollowTCPSection.html rather than a web application or load balancer HTTP "X-Request-ID" Header?
+
+5.2
+
+- Redefine "Access Logs" as 1. "web application transaction" [log] and 2. "WAF Configuration Changes" [log]
+
+5.3
+
+- I would consider "Event logs and notification" out of scope as this would be addressed by other standards bodies e.g. SCAP
+- If included in scope of v2 then add Wireshark/PCAP and Burp Proxy State.
+
+5.4 
+
+- An end user would be interested to know how much web application traffic could be inserted into the web application transaction log "after the fact" when a suspicious transaction is detected?
+- An end user would like to export a Wireshark/PCAP and Burp Proxy State and could as raised in 5.3 above.
+
+5.5 
+
+- I would consider "Log access" to be out of scope as it would be addressed by other standards bodies e.g. PCI Security Standard Council, ASD, ISO, etc
+
+5.6
+
+- I would consider "Syslog support" to be out of scope as this would be addressed by other standards bodies e.g. PCI Security Standard Council, ASD, ISO, etc
+- If included in scope of v2 then add "Windows Event Log Subscriptions"
+
+5.7  
+
+- I would consider "5.7 Log retention" to be out of scope as this would be addressed by other standards bodies e.g. PCI Security Standard Council, ASD, ISO, etc
+- If included in scope then refer to 5.4 i.e. "inserted into the web application transaction log "after the fact" when a suspicious transaction is detected"
+
+5.8
+
+- I would consider "Handling of sensitive data" to be out of scope as this would be addressed by other standards bodies e.g. PCI Security Standard Council, ASD, ISO, etc 
